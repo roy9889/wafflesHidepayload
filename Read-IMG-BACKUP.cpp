@@ -6,9 +6,8 @@
 #include <windows.h>
 
 // Constants for file paths and original file size
-#define TARGET_FILE_PATH "image2.png";         // Path to the modified target file
-#define ORIGINAL_FILE_SIZE 3343                    // Replace with the actual size in bytes
-// The combined_file.png opens a calculator
+#define TARGET_FILE_PATH "image2.png";         // Path to the modified/embedded target image file
+#define ORIGINAL_FILE_SIZE 3343                    // Replace with the actual/original size in bytes of the image before being embedded with payload
 
 /**
  * @brief Retrieves the size of a file.
