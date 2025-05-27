@@ -8,8 +8,6 @@
 // Constants for file paths and original file size
 #define TARGET_FILE_PATH "image2.png";         // Path to the modified target file
 #define ORIGINAL_FILE_SIZE 3343                    // Replace with the actual size in bytes
-// x86_64-w64-mingw32-g++ Read-IMG-BACKUP.cpp -mwindows -static-libgcc -static-libstdc++ -luser32 -lkernel32
-//x86_64-w64-mingw32-g++ Read-IMG-BACKUP.cpp -mwindows -static-libgcc -static-libstdc++ -luser32 -lkernel32 -static -lwinmm -o b.exe
 // The combined_file.png opens a calculator
 
 /**
